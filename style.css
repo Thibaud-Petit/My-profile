@@ -1,0 +1,88 @@
+/* Color and fonts */
+
+body{
+    background: cadetblue; 
+    color: #da9ff9; 
+    font-family: 'Crimson Text', serif; 
+    font-size: 18px;
+}
+
+h1, h2 { font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h2 { color: #b088f9;
+    font-size: 24px;
+    font-weight: 400;
+ }
+a { text-decoration: none;
+    color: #ea97ad;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+ }
+ a:hover { 
+ color: red;
+ }
+ /custom design with class (99% of your design) */
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.btn-blue {
+    background-color: #c880b7;
+    color: white;
+    padding: 8px 13px;
+    border-radius: 4px;
+}
+.btn-blue:hover {
+    background-color: purple;
+    color: white;
+}
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+.list-inline i {
+    font-size: 50px;
+}
+.list-inline i:hover {
+    color: darkblue;
+}
+#introduction p {
+    margin-bottom: 40px;
+}
+
+
+
+
+@media (max-width: 760px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 400px;
+    }
+}
